@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#Box1_Images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+#Box2_Images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+#Box3_Images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly
+}
+.Book_Wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:15%;
+
+}
+#Book_Title{
+  text-align: center;
+  font-size: small;
+  font-weight: 900;
+}
+#Book_Authors{
+  text-align: center;
+  font-size: x-small;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
+}
+.Drop_Down_Button{
+  border-radius: 50%;
+  position: relative;
+  bottom: 10%;
+  left:30%;
+}
+#MyReads{
+  align-items: center;
+  justify-content: center;
+}
+#Search_Button{
+  border-radius: 50%;
+position: fixed;
+bottom:20px;
+right: 20px;
+}
+#Search_Tab{
+  display: flex;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
